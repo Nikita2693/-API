@@ -10,8 +10,8 @@
       "name",
       "number",
       "balance",
-      "currency"]
-    ,
+      "currency"
+    ],
     "properties": {
       "id": {
         "type": "integer"
@@ -30,7 +30,8 @@
       },
       "currency": {
         "type": "string",
-        "pattern": "^RUR$|^USD$"
+        "pattern": "^RUB$|^USD$"
       }
     }
-  },
+  }
+}
